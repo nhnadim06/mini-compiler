@@ -221,7 +221,6 @@ mini_compiler_project/
 ├── code_generator.py            # Phase 5: Code Generation
 ├── timeline.py                  # Phase 7: Code Quality Analyzer ⭐
 ├── passcode.txt                 # Sample perfect code (100% score)
-├── EXPLANATION_BANGLA.md        # Detailed explanation in Bengali
 ├── git-readme                   # This file
 └── .venv/                       # Virtual environment
 ```
@@ -234,7 +233,7 @@ mini_compiler_project/
 | `parser.py` | 2-4 | Parses tokens, builds symbol table, generates 3AC |
 | `symbol_table.py` | 2-4 | Manages variable information (type, scope, etc) |
 | `code_generator.py` | 5 | Converts 3AC to Intel 8086 Assembly |
-| `timeline.py` | 7 | **Code Quality Analyzer** - Your main feature! |
+| `timeline.py` | 7 | **Code Quality Analyzer** - main feature! |
 | `gui.py` | 6 | Displays all compilation phases in tabs |
 
 ---
@@ -415,7 +414,7 @@ Symbol Table:
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### Run Sample Codes
 
@@ -459,7 +458,7 @@ Symbol Table:
 
 ---
 
-## 📝 Documentation
+## Documentation
 
 - **passcode.txt** - Sample perfect code achieving 98/100 score
 - **Code comments** - Throughout source files for clarity
@@ -491,7 +490,7 @@ Symbol Table:
 
 ---
 
-## 📄 License & Credits
+## License & Credits
 
 **Project:** CSE 430 - Compiler Design Lab  
 **University:** University of Asia Pacific  
@@ -545,7 +544,7 @@ Potential improvements for future versions:
 
 ---
 
-## 📞 Contact & Support
+## Contact & Support
 
 For questions about this project:
 - **Developer:** Nazmul Hoosain Nadim
