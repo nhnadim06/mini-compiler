@@ -22,7 +22,7 @@ This is a **complete Mini Compiler** project for CSE 430 (Compiler Design Lab) a
 - **Phase 2-4:** Parser & Semantic Analysis
 - **Phase 5:** Code Generation (Intel 8086 Assembly)
 - **Phase 6:** GUI Interface
-- **Phase 7:** Code Quality Analyzer ⭐ (Your Main Feature!)
+- **Phase 7:** Code Quality Analyzer ⭐ (Main Feature!)
 
 ### 🎯 Main Feature: CODE QUALITY ANALYZER ⭐
 
@@ -45,7 +45,7 @@ The **Code Quality Analyzer** automatically detects and reports:
 - **Performance Tips** - Multiplication by 2 (use bit-shift), division by powers of 2, print() in loops
 - **Function Call Depth** - Reports function definitions and call hierarchies, detects recursion
 
-#### 📊 Quality Score (0-100)
+#### Quality Score (0-100)
 - **Deduction Formula:**
   - Each Error: -15 points
   - Each Warning: -7 points
@@ -55,13 +55,13 @@ The **Code Quality Analyzer** automatically detects and reports:
 
 ---
 
-## 🏗️ Architecture & How It Works
+## Architecture & How It Works
 
 ### Compilation Pipeline
 
 ```
 ┌──────────────────────────┐
-│   RAW SOURCE CODE        │  (Your .c code)
+│   RAW SOURCE CODE        │  (Your code)
 └────────────┬─────────────┘
              │
              ▼
@@ -108,7 +108,7 @@ The **Code Quality Analyzer** automatically detects and reports:
 
 ---
 
-## 🔬 Code Quality Analyzer - Technical Details
+## Code Quality Analyzer - Technical Details
 
 ### How It Works (Step by Step)
 
@@ -209,7 +209,7 @@ else: grade = 'F'
 
 ---
 
-## 📁 Project File Structure
+## Project File Structure
 
 ```
 mini_compiler_project/
@@ -250,7 +250,7 @@ mini_compiler_project/
 
 ```bash
 # Clone or download the project
-cd mini_compiler_project
+cd mini-compiler
 
 # Create virtual environment
 python3 -m venv .venv
@@ -420,12 +420,11 @@ Symbol Table:
 ### Run Sample Codes
 
 1. **Perfect Code (98/100)** - In `passcode.txt`
-2. **Test with errors** - Open `EXPLANATION_BANGLA.md` for examples
-3. **Custom code** - Write your own in the GUI
+2. **Custom code** - Write your own in the GUI
 
 ---
 
-## 📊 Quality Analyzer - Technical Specifications
+## Quality Analyzer - Technical Specifications
 
 ### Data Sources
 
@@ -462,13 +461,11 @@ Symbol Table:
 
 ## 📝 Documentation
 
-- **EXPLANATION_BANGLA.md** - Detailed line-by-line explanation in Bengali
 - **passcode.txt** - Sample perfect code achieving 98/100 score
 - **Code comments** - Throughout source files for clarity
 
 ---
 
-## 👨‍💻 How to Present to Your Teacher
 
 ### Key Points to Highlight
 
@@ -553,6 +550,7 @@ Potential improvements for future versions:
 For questions about this project:
 - **Developer:** Nazmul Hoosain Nadim
 - **ID:** 22101203
+- **E-mail:** nhnadim006@gmail.com
 - **Institution:** University of Asia Pacific
 - **Course:** CSE 430 - Compiler Design Lab
 
